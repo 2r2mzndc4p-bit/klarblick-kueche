@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://klarblick-kueche.vercel.app/</loc></url>
+<url><loc>https://klarblick-kueche.vercel.app/heissluftfritteusen.html</loc></url>
+<url><loc>https://klarblick-kueche.vercel.app/kaffeevollautomaten.html</loc></url>
+<url><loc>https://klarblick-kueche.vercel.app/kuechenmaschinen.html</loc></url>
+<url><loc>https://klarblick-kueche.vercel.app/standmixer.html</loc></url>
+<url><loc>https://klarblick-kueche.vercel.app/wasserkocher.html</loc></url>
+<url><loc>https://klarblick-kueche.vercel.app/brotbackautomaten.html</loc></url>
+<url><loc>https://klarblick-kueche.vercel.app/impressum.html</loc></url>
+<url><loc>https://klarblick-kueche.vercel.app/privacy.html</loc></url>
+</urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://klarblick-kueche.vercel.app/</loc>
     <changefreq>weekly</changefreq>
