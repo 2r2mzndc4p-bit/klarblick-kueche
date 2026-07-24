@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kategorie in Vorbereitung – Küchenkompass</title>
+<meta name="robots" content="noindex, follow">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap nav">
+    <a href="index.html" class="logo">Küchenkompass<span></span></a>
+    <nav class="megamenu" id="megamenu"></nav>
+  </div>
+</header>
+
+<section class="soon-hero">
+  <div class="wrap">
+    <div class="icon">🛠️</div>
+    <div class="breadcrumb" style="justify-content:center;display:flex;"><a href="index.html">Start</a>&nbsp;/&nbsp;<span id="catName">Kategorie</span></div>
+    <h1 id="catTitle">Diese Kategorie kommt bald</h1>
+    <p>Wir arbeiten gerade an ausführlichen Vergleichen und Testberichten für diesen Bereich. Schau bald wieder vorbei — oder sieh dir in der Zwischenzeit unsere bereits verfügbaren Kategorien an.</p>
+    <a class="btn btn-primary" href="index.html">Zur Startseite</a>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h4>Bereits verfügbar</h4>
+        <a href="heissluftfritteusen.html">Heißluftfritteusen</a>
+        <a href="kaffeevollautomaten.html">Kaffeevollautomaten</a>
+        <a href="kuechenmaschinen.html">Küchenmaschinen</a>
+        <a href="standmixer.html">Standmixer</a>
+        <a href="wasserkocher.html">Wasserkocher</a>
+        <a href="brotbackautomaten.html">Brotbackautomaten</a>
+      </div>
+      <div>
+        <h4>Rechtliches</h4>
+        <a href="impressum.html">Impressum</a>
+        <a href="privacy.html">Datenschutz</a>
+      </div>
+    </div>
+    <div class="bottom">© 2026 Küchenkompass</div>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+<script>
+(function(){
+  var params = new URLSearchParams(location.search);
+  var name = params.get('name') || 'Diese Kategorie';
+  document.getElementById('catName').textContent = name;
+  document.title = name + ' (bald verfügbar) – Küchenkompass';
+})();
+</script>
+</body>
+</html>
